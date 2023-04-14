@@ -14,5 +14,7 @@ fn main() {
     let numero2:i32 = numero2.parse().unwrap();
 
     let resultado = numero1 + numero2;
+    let resultado2 = numero1 - numero2;
     println!(" el resultado de la suma es: {}",resultado);
+    println!(" el resultado de la resta es: {}",resultado2);
 }
